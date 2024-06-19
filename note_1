@@ -4,4 +4,7 @@
 3.创建index.js，Dockerfile文件；Dockerfile的名称必须这么写
 4.Dockerfile中常见指令：
 4.1 COPY source(源路径，相对于Dockerfile文件路径） dest（目标路径，相对于镜像路径）
-    需要把index
+    需要把index.js复制到镜像的根目录下：COPY index.js /index.js (根目录路径）
+4.2 使用CMD指令运行程序：第一个参数是可程序的名字，第二个参数是路径 
+    CMD ["node",".index.js"] 
+
