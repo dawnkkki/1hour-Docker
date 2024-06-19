@@ -1,0 +1,7 @@
+在vscode中使用Docker：
+1.创建一个新文件
+2.vscode中打开文件
+3.创建index.js，Dockerfile文件；Dockerfile的名称必须这么写
+4.Dockerfile中常见指令：
+4.1 COPY source(源路径，相对于Dockerfile文件路径） dest（目标路径，相对于镜像路径）
+    需要把index
